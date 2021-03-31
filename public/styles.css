@@ -1,0 +1,127 @@
+body {
+    text-align: center;
+    background-color: #fbeeac;
+}
+
+
+
+h1 {
+    font-size: 3rem;
+    background-color: #f4d160;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    font-family: 'Handlee',
+        cursive;
+    border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+
+}
+
+.note-area {
+    min-height: 38rem;
+    max-height: 100rem;
+    margin: 3rem 18rem 3rem 18rem;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 4px 3px 7px 2px #00000040;
+    background-color: #f8f5f1;
+    background-image: url("https://www.transparenttextures.com/patterns/worn-dots.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    background-size: cover;
+    width: 50%;
+    word-wrap: break-word;
+
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-input {
+    border: none;
+    border-bottom: dotted;
+    font-size: 1.8rem;
+    background: transparent;
+    outline: none;
+    font-family: 'Handlee',
+        cursive;
+
+}
+
+.form1 {
+    display: inline-block;
+}
+
+.add-btn {
+    margin: 1rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 20%;
+    border: none;
+    background-color: #ffd880;
+}
+
+.drop-down {
+    font-size: 1rem;
+    display: inline-block;
+    font-family: 'Handlee',
+        cursive;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.list-item {
+    font-size: 1.5rem;
+    text-align: left;
+    padding: none 20px none;
+    font-family: 'Handlee',
+        cursive;
+    font-weight: bold;
+    background-color: #ffd384;
+    border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+    position: relative;
+    word-wrap: break-word;
+    list-style: square;
+}
+
+.list-item1 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 80%;
+    word-wrap: break-word;
+}
+
+.check-btn {
+    height: 2rem;
+    width: 2rem;
+    margin: 0.5rem;
+    background-color: #ff8e6e;
+    border: none;
+    border-radius: 20%;
+    position: absolute;
+    left: 36rem;
+}
+
+.trash-btn {
+    height: 2rem;
+    width: 2rem;
+    right: 4rem;
+    background-color: #ff8e6e;
+    border: none;
+    border-radius: 20%;
+    position: absolute;
+    left: 34rem;
+}
+
+
+.footer {
+    font-family: 'Handlee',
+        cursive;
+}
