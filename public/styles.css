@@ -74,7 +74,7 @@ h1 {
     font-family: 'Handlee',
         cursive;
     font-weight: bold;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
 }
 
 .completed {
@@ -168,7 +168,7 @@ h1 {
     
 
     h1{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
          margin-right: 6rem;
          margin-left: 6rem;
          margin-top: 1rem;
@@ -198,7 +198,8 @@ h1 {
     }
 
     .drop-down {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
+        margin-left: 1rem;
     }
 
     .check-btn {
