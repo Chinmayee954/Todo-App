@@ -25,13 +25,32 @@ function Todos(props)
     return(
              <ul className="list">
                 <div className="list-item">
-                    <li className={`list-item1 ${props.todo.completed ? "completed" : null}`} >🕒 {props.text} 
-                <button className = "check-btn" onClick={completeHandler}>
+                <li className="list-item1" >
+                <div className = "grid-container">
+                    <div className = {`note ${props.todo.completed ? "completed" : null}`}>
+                           🕒 {props.text} 
+                    </div>
+                    <div>
+                            <button className = "check-btn" onClick={completeHandler}>
                     <i className="fa fa-check" aria-hidden="true"></i>
-                </button>
-                <button className ="trash-btn" onClick = {deleteTodo}>
+                    </button>
+
+                      
+                             <button className ="trash-btn" onClick = {deleteTodo}>
                     <i className="fa fa-trash" aria-hidden="true"></i>
-                </button>
+                   </button>
+                    </div>
+
+                   
+               
+                </div>
+               
+                      
+                    
+                    
+                   
+                
+                
                 </li>
                 </div>
              </ul>
