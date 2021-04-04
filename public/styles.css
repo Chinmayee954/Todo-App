@@ -146,6 +146,11 @@ h1 {
         cursive;
 }
 
+.note-body{
+    text-align: center;
+    width: 100%;
+}
+
 
 @media (max-width: 600px)
 {
@@ -153,7 +158,11 @@ h1 {
 
    body {
 
-       margin: 1rem 5rem auto 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fbeeac;
+        text-align: center;
    }
 
     
@@ -166,8 +175,9 @@ h1 {
     }
 
     .note-area{
-        width: 25rem;
+        width: 20rem;
         padding: 1rem;
+        margin: 1rem 5rem auto 8rem;
     }
 
     .add-btn {
